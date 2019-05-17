@@ -21,7 +21,7 @@ class Human:
     def __init__(self, env):
         self.env = env
 
-    def train(self, render=False):
+    def train(self, episodes=0, render=False):
         pass
 
     def test(self, render=True):
