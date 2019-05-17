@@ -40,7 +40,7 @@ class Sarsa:
             done = False
             while not done:
                 action = np.argmax(self.Q[tuple(state)])
-                state, _, done = self.env.step()
+                state, _, done = self.env.step(action)
                 if render: self.env.render()
 
 

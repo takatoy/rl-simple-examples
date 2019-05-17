@@ -5,10 +5,10 @@ from agents.q_learning import QLearning
 from agents.sarsa import Sarsa
 
 env = GridWorld()
-agent = Human(env)
+# agent = Human(env)
 # agent = MonteCarloOnPolicy(env)
 # agent = QLearning(env)
-# agent = Sarsa(env)
+agent = Sarsa(env)
 
-agent.train(episodes=100000, render=True)
+agent.train(episodes=100, render=True)
 agent.test()

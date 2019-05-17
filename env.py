@@ -40,7 +40,7 @@ class GridWorld(Env):
             [0, 1, 0, 0, 0, 0],
             [0, 1, 2, 0, 1, 4]
         ]
-        self.max_steps = 30
+        self.max_steps = 100
 
         self.state = [0, 0]
         self.n_steps = 0
