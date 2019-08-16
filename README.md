@@ -1,4 +1,4 @@
-# Reinforcement Learning Simple Examples
+# Tabluar RL
 
 ## Install
 
